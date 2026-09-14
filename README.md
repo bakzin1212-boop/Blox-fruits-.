@@ -253,7 +253,6 @@ showMain()
 UserInputService.InputBegan:Connect(function(input, processed)
 	if processed then
 		return
-	end
 
 	if input.KeyCode == Enum.KeyCode.RightShift then
 		main.Visible = not main.Visible
